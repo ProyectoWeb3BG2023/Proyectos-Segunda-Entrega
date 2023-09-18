@@ -1,0 +1,119 @@
+@font-face {
+  font-family: Coco-Sharp-Extrabold-trial;
+  src: url(src/Coco-Sharp-Extrabold-trial.ttf);
+}
+
+@font-face {
+  font-family: Coco-Sharp-Bold-trial;
+  src: url(src/Coco-Sharp-Extrabold-trial.ttf);
+}
+
+body {
+  margin: 0;
+  font-family: Coco-Sharp-Bold-trial;
+  background-color: #efefef;
+}
+
+header {
+  background-color: #629677;
+  padding: 0.8vw;
+}
+
+img {
+  border-radius: 10px;
+}
+
+header img {
+  width: 4.5vw;
+  margin: 0.3vw;
+}
+
+.divContenedor {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.divSubContenedorIzquierda {
+  display: flex;
+  align-items: center; 
+}
+
+.divSubContenedorIzquierda a {
+  margin-right: 10px;
+}
+
+.divSubContenedorDerecha {
+  display: flex;
+  align-items: center; 
+}
+
+.divSubContenedorDerecha a {
+  margin: 0 1vw;
+  font-family: Coco-Sharp-Bold-trial;
+  font-size: 1vw;
+}
+
+.divSubContenedorDerecha img {
+  border-radius: 100%;
+}
+
+header .linkCentrado {
+  margin: 0 10px;
+  text-decoration: none;
+  color: black;
+  font-size: 1.5vw;
+}
+/****************************************************************/
+
+.contenedorTarjetas {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.tarjeta {
+  width: 23vw;
+  border-radius: 10px;
+  border: 2px solid #222;
+  padding: 12vw 0;
+  font-size: 2.3vw;
+}
+
+a {
+  text-decoration: none;
+  color: #222;
+}
+
+section article img {
+  width: 50%;
+}
+
+footer {
+  padding: 2.7vw;
+  background-color: #222;
+  color: #aaa;
+  margin-top: 1vw;
+  font-size: 1vw;
+}
+
+footer p {
+  margin: 0;
+}
+
+footer section {
+  float: right;
+}
+
+footer a {
+  transition: 0.3s;
+  color: #aaa;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: cornflowerblue;
+}
