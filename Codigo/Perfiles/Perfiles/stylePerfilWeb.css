@@ -1,0 +1,197 @@
+  /**//**//**//**//**//**//**//**//**//**/
+  @font-face {
+    font-family: Coco-Sharp-Extrabold-trial;
+    src: url(src/Coco-Sharp-Extrabold-trial.ttf);
+  }
+
+  @font-face {
+    font-family: Coco-Sharp-Bold-trial;
+    src: url(src/Coco-Sharp-Extrabold-trial.ttf);
+  }
+
+  body {
+    margin: 0;
+    font-family: Coco-Sharp-Bold-trial;
+    background-color: #efefef;
+  }
+  
+  header {
+    background-color: #629677;
+    padding: 0.8rem;
+  }
+ 
+  img {
+    border-radius: 10px;
+  }
+
+  header img {
+    width: 5rem;
+    margin: 0.3rem;
+  }
+
+  header .linkCentrado {
+    margin: 0 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 1.5vw;
+  }
+
+  .divContenedor {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+
+  .divSubContenedorIzquierda {
+    display: flex;
+    align-items: center; 
+  }
+
+  .divSubContenedorIzquierda a {
+    margin-right: 10px;
+  }
+  
+  .divSubContenedorDerecha {
+    display: flex;
+    align-items: center; 
+  }
+  
+  .divSubContenedorDerecha a {
+    margin: 0 1rem;
+    font-family: Coco-Sharp-Bold-trial;
+    font-size: 1vw;
+  }
+
+  .divSubContenedorDerecha img, .tarjetaEmpresa img {
+    border-radius: 100%;
+  }
+
+  a {
+    text-decoration: none;
+    color: #222;
+  }
+
+  section article img {
+    width: 100%;
+    border-radius: 0;
+  }
+  
+ 
+  
+  /*****************************************************/
+  
+  h2 {
+      margin: 0.5rem 1rem;
+  }
+  
+  /*****************************************************/
+
+  .contenedorFotoNombreCliente, 
+  .contenedorDatosContacto, 
+  .contenedorDatosDomicilio {
+    width: 90%;
+    margin: 4rem auto;
+    border-radius: 8px;
+    border: 2px solid #222; 
+  }
+  
+  .contenedorFotoNombreCliente { 
+    display: flex;
+  }
+
+  .subContenedorFoto {
+    width: 30%;
+  }
+
+  .tarjetaCliente {
+    width: 60%;
+    margin: 2rem auto;
+    border: 2px solid #222;
+    border-radius: 8px;
+  }
+
+  .tarjetaCliente p {
+    text-align: center;
+  }
+
+  .subContenedorNombre {
+    width: 70%;
+    display: block;
+  }
+
+  .nombresCliente {
+    display: block;
+    width: 100%;
+    height: 50%;
+    text-align: center;
+  }
+  
+  /**************************/
+
+  .contactoCliente {
+    display: block;
+    width: 100%;
+    height: 50%;
+    text-align: center;
+  }
+
+  .contactoCliente h2, .domicilioUsuario h2 {
+    margin: 2rem 0 0 2rem;
+    width: 10%;
+    font-style: 2vw;
+  }
+
+  /*****************************************************/
+
+  .nombresCliente input, .contactoCliente input, .domicilioCliente input {
+    height: 3vh;
+    text-align: center;
+    border-radius: 6px;
+    border: 2px solid #222;
+    font-size: 1vw;
+    font-family: Coco-Sharp-Extrabold-trial;
+  }
+
+  .nombresCliente input {
+    width: 15vw;
+    margin: 9% 11%;
+  }
+
+  .contactoCliente input {
+    margin: 7% 11%;
+  }
+
+  .domicilioCliente input {
+    width: 10vw;
+    margin: 7% 10%;
+  }
+  /*****************************************************/
+
+
+  footer {
+    padding: 3rem;
+    background-color: #222;
+    color: #aaa;
+    margin-top: 1rem;
+    font-size: 1vw;
+  }
+
+  footer p {
+    margin: 0;
+  }
+
+  footer section {
+    float: right;
+  }
+
+  footer a {
+    transition: 0.3s;
+    color: #aaa;
+    text-decoration: none;
+  }
+
+  footer a:hover {
+    color: cornflowerblue;
+  }
+/**//**//**//**//**//**//**//**//**//**/
