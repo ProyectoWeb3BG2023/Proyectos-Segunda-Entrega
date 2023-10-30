@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Nathan Guerra, Bruno Bordagorry, Diego Weble">
+    <meta name="generator" content="Visual Studio Code">
+    <meta http-equiv="X-UA-Compatible" content="IE=chrome">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="formulario, sign up, registro">
+    <link rel="stylesheet" href="../../recursos/css/fonts.css">
+    <link rel="stylesheet" href="../../recursos/css/header.css">
+    <link rel="stylesheet" href="../../recursos/css/home/styleFormularioLogin.css">
+    <link rel="icon" href="../../recursos/img/logo.png">
+    <title>Log in</title>
+</head>
+
+<body>
+    <!-- <header id="header">
+        <div class="divContenedor">
+            <div class="divSubContenedorIzquierda">
+                <a href="homepage.html">
+                    <img src="../../recursos/img/logo.png">
+                </a>
+
+                <a href="homepage.html" class="linkCentrado">Homepage</a>
+            </div>
+        </div>
+    </header> -->
+    <section class="sectionCabeceraLogin">
+        <article class="containerImg">
+            <img src="../../recursos/img/logoSinFondo.png" alt="">
+        </article>
+        <article class="containerBienvenida">
+            <h2>¡Bienvenido otra vez!</h2>
+        </article>
+    </section>
+
+    <section class="contenedorFormularioRegistro">
+        <article class="titulo">
+            Ingreso
+        </article>
+        <article class="subContenedorFormulario">
+                <form action="../../datos/logueo.php" method="post" enctype="multipart/form-data" class="formulario">
+                    <p>
+                        <input type="text" id="n1" name="identificador" required placeholder="ID Usuario...">
+                    </p>
+                    <p class="">
+                        <input type="password" name="contrasena" required placeholder="Contraseña">
+                    </p>
+                    <input type="submit" value="Entrar" name="registrar">
+                </form>
+        </article>
+    </section>
+
+    <section class="botonVolver">
+        <button class="learn-more">
+            <span class="circle" aria-hidden="true">
+            <span class="icon arrow"></span>
+            </span>
+            <span class="button-text"><a href="homepage.html" class="button-text">Volver atrás</a></span>
+        </button>
+    </section>
+</body>
+
+</html>
