@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Nathan Guerra, Bruno Bordagorry, Diego Weble">
+    <meta name="generator" content="Visual Studio Code">
+    <meta http-equiv="X-UA-Compatible" content="IE=chrome">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="">
+    <title>Ingreso Nuevo</title>
+    <link rel="stylesheet" href="styleSolicitud.css">
+    <link rel="icon" href="src/logo.png">
+</head>
+<body>
+    <header id="header">
+        <div class="divContenedor">
+            <div class="divSubContenedorIzquierda">
+                <a href="homeSolicitud.html">
+                    <img src="src/logo.png">
+                </a>
+                <a href="homepage.html" class="linkCentrado">Home</a>
+            </div>
+            <div class="divSubContenedorDerecha">
+                <a class="linkCentrado">Nombre User</a>
+                <img src="src/usr.png" class="linkCentrado" alt="">
+            </div>
+        </div>
+    </header>
+    <!-- Dietas platos menus -->
+    <section class="contenedorTarjetas">
+        <article class="tarjeta">
+            <button onclick="mostrarOpciones('dieta')">
+                Dietas
+            </button>
+        </article>
+
+        <article class="tarjeta" class="centered-link">
+            <button onclick="mostrarOpciones('plato')">
+                Platos
+            </button>
+        </article>
+        <article class="tarjeta">
+            <button onclick="mostrarOpciones('menu')">
+                Menús
+            </button>
+        </article>
+    </section>
+
+    <!-- Dietas  -->
+
+    <section class="Dcontenedor" id="opcionesDieta">
+
+        <article class="Dsubcontenedor1">
+            Agregar Dieta
+        </article>
+
+        <article class="identificador">
+            <div class="subidentificador">
+                Nombre/ID Jefe/Cocina
+            </div>
+        </article>
+
+        <article class="Dsubcontenedor2">
+            <div class="Dinpu" class="Dinpu1">
+                <label for="Ddiet">Nombre:</label>
+                <br>
+                <input type="text" name="nombreDieta" id="Ddiet" placeholder="Dieta...">
+                <button class="Dbuto">+</button>
+            </div>
+            <div class="Dinpu" class="Dinpu2">
+                <label for="Ddiet">Descripción:</label>
+                <br>
+                <textarea name="" id="" cols="30" rows="8"></textarea>
+            </div>
+        </article>
+    </section>
+
+
+    <!-- platos  -->
+
+    <section class="Pcontenedor" id="opcionesPlato">
+
+        <article class="Psubcontenedor1">
+            Agregar Plato
+        </article>
+
+        <article class="identificador">
+            <div class="subidentificador">
+                Nombre/ID Jefe/Cocina
+            </div>
+        </article>
+
+        <article class="Psubcontenedor2">
+            <div class="Pina">
+                <div class="Pinpu" class="Pinpu1">
+                    <label for="diet">Nombre:</label>
+                    <br>
+                    <input type="text" name="nombreDieta" id="Pdiet" placeholder="Plato...">
+                </div>
+                <div class="Pinpu" class="Pinpu2">
+                    <label for="Pdietas">Selecciona una dieta:</label>
+                    <br>
+                    <select id="Pdietas" name="Pdietas">
+                        <option value="vegetariana">Dieta Vegetariana</option>
+                        <option value="vegana">Dieta Vegana</option>
+                        <option value="paleo">Dieta Paleo</option>
+                        <option value="keto">Dieta Keto</option>
+                        <option value="mediterranea">Dieta Mediterránea</option>
+                    </select>
+                </div>
+                <div class="Pinpu" class="Pinpu3">
+                    <label for="Pdiet">Imagen:</label>
+                    <br>
+                    <img src="src/imagen.png" alt="">
+                </div>
+            </div>
+
+
+
+        </article>
+        <article class="Psubcontenedor3">
+            <div class="Pinpu" class="Pinpu4">
+                <label for="Pdiet">Ingredientes:</label>
+                <br>
+                <textarea name="" id="" cols="45" rows="7"></textarea>
+            </div>
+            <div class="Pinpu" class="Pinpu5">
+                <button class="Pbuto">
+                    Enviar
+                </button>
+            </div>
+        </article>
+
+    </section>
+
+    <!-- menus -->
+
+    <section class="Mcontenedor" id="opcionesMenu">
+
+        <article class="Msubcontenedor1">
+            Agregar Menu
+        </article>
+
+        <article class="identificador">
+            <div class="subidentificador">
+                Nombre/ID Jefe/Cocina
+            </div>
+        </article>
+        
+        <article class="Msubcontenedor2">
+
+            <div class="Minpu" class="Minpu1">
+                <label for="Mdiet">Nombre:</label>
+                <br>
+                <input type="text" name="nombreMenu" id="Mdiet" placeholder="Menu...">
+            </div>
+
+        </article>
+
+        <article class="Msubcontenedor2">
+
+            <div class="almuerzo">
+                <label for="Pdietas">Selecciona un Plato:</label>
+                <br>
+                <select id="Pdietas" name="Pdietas">
+                    <option value="vegetariana">Empanadas</option>
+                    <option value="vegana">Milanesas con puré</option>
+                    <option value="paleo">Fideos con tuco</option>
+                    <option value="keto">Chorizos con rusa</option>
+                    <option value="mediterranea">Paella con duraznos</option>
+                </select>
+            </div>
+
+            <div class="cena">
+                <label for="Pdietas">Selecciona un Plato:</label>
+                <br>
+                <select id="Pdietas" name="Pdietas">
+                    <option value="vegetariana">Empanadas</option>
+                    <option value="vegana">Milanesas con puré</option>
+                    <option value="paleo">Fideos con tuco</option>
+                    <option value="keto">Chorizos con rusa</option>
+                    <option value="mediterranea">Paella con duraznos</option>
+                </select>
+            </div>
+
+        </article>
+
+        <article class="Msubcontenedor2">
+
+            <div class="almuerzo">
+                <label for="Pdietas">Selecciona un Plato:</label>
+                <br>
+                <select id="Pdietas" name="Pdietas">
+                    <option value="vegetariana">Empanadas</option>
+                    <option value="vegana">Milanesas con puré</option>
+                    <option value="paleo">Fideos con tuco</option>
+                    <option value="keto">Chorizos con rusa</option>
+                    <option value="mediterranea">Paella con duraznos</option>
+                </select>
+            </div>
+
+            <div class="cena">
+                <label for="Pdietas">Selecciona un Plato:</label>
+                <br>
+                <select id="Pdietas" name="Pdietas">
+                    <option value="vegetariana">Empanadas</option>
+                    <option value="vegana">Milanesas con puré</option>
+                    <option value="paleo">Fideos con tuco</option>
+                    <option value="keto">Chorizos con rusa</option>
+                    <option value="mediterranea">Paella con duraznos</option>
+                </select>
+            </div>
+
+        </article>
+
+        <article class="Msubcontenedor2">
+            <div class="almuerzo">
+                <label for="Pdietas">Selecciona un Plato:</label>
+                <br>
+                <select id="Pdietas" name="Pdietas">
+                    <option value="vegetariana">Empanadas</option>
+                    <option value="vegana">Milanesas con puré</option>
+                    <option value="paleo">Fideos con tuco</option>
+                    <option value="keto">Chorizos con rusa</option>
+                    <option value="mediterranea">Paella con duraznos</option>
+                </select>
+                
+            </div>
+
+            <div class="cena">
+                <label for="">Stock Techo:</label>
+                <br>
+                <input type="number" minlength="1" id="Mfail">
+            </div>
+        </article>
+        <article class="Msubcontenedor3">
+            <div class="imagenMenu">
+                <label for="">Imagen:</label>
+                <br>
+                <img src="src/imagen.png" alt="">
+                <br>
+                <br>
+                <button class="Mbuto">Aceptar</button> 
+            </div>
+            
+            <div class="cena2">
+                <label for="">Stock Piso:</label>
+                <br>
+                <input type="number" minlength="1" id="Mfail">
+                <br>
+                <br>
+                <label for="">Precio:</label>
+                <br>
+                <input type="number" name="precioMenu" minlength="1" id="Mfail">
+                <br>
+                <br>
+                <label for="">Durabilidad:</label>
+                <br>
+                <input type="number" name="durabilidadMenu" minlength="1" id="Mfail">
+            </div>
+        </article>
+    </section>
+
+
+
+    <footer>
+        <section>
+            <a href="#hd">Volver arriba</a>
+        </section>
+        <p>Copyright - Prometeo BND</p>
+
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+
+</html>

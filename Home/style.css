@@ -1,0 +1,125 @@
+  @font-face {
+    font-family: Coco-Sharp-Extrabold-trial;
+    src: url(src/Coco-Sharp-Extrabold-trial.ttf);
+  }
+
+  @font-face {
+    font-family: Coco-Sharp-Bold-trial;
+    src: url(src/Coco-Sharp-Bold-trial.ttf);
+  }
+
+  body {
+    margin: 0;
+    font-family: Coco-Sharp-Bold-trial;
+    background-color: #efefef;
+  }
+  
+  header {
+    background-color: #629677;
+    padding: 0.8rem;
+  }
+ 
+  img {
+    border-radius: 10px;
+  }
+
+  header img {
+    width: 5rem;
+    margin: 0.3rem;
+  }
+
+  section article img {
+    width: 50%;
+  }
+
+  header .linkCentrado {
+    margin: 0 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 1.5vw;
+  }
+
+  /*************************************/
+
+  .divContenedor, .sectionContenedor {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+
+  .divSubContenedorIzquierda {
+    display: flex;
+    align-items: center; 
+  }
+
+  .divSubContenedorIzquierda a {
+    margin-right: 10px;
+  }
+  
+  .divSubContenedorDerecha {
+    display: flex;
+  }
+  
+  .divSubContenedorDerecha button {
+    margin: 0 1rem;
+    font-family: Coco-Sharp-Bold-trial;
+    font-size: 1vw;
+  }
+
+  section .sectionContenedor2 {
+    margin-top: 2rem;
+  }
+
+  .sectionContenedor2 article p {
+    font-size: 4vw;
+  }
+
+  .sectionContenedorTitulos {
+    margin: 4rem 0;
+    text-align: center;
+  }
+
+  .articleSubContenedor {
+    width: 50%;
+    margin: 3rem;
+    text-align: center;
+  }
+
+  .parrafo{
+    font-size: 2vw;
+  }
+
+  section p {
+    font-size: 5vw;
+    margin: 0;
+    font-family: Coco-Sharp-Bold-trial;
+  }
+  
+  /********************/
+  footer {
+    padding: 3rem;
+    background-color: #222;
+    color: #aaa;
+    margin-top: 1rem;
+    font-size: 1vw;
+  }
+
+  footer p {
+    margin: 0;
+  }
+
+  footer section {
+    float: right;
+  }
+
+  footer a {
+    transition: 0.3s;
+    color: #aaa;
+    text-decoration: none;
+  }
+
+  footer a:hover {
+    color: cornflowerblue;
+  }
+  /********************/

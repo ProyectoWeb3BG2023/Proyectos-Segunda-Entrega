@@ -1,0 +1,208 @@
+  @font-face {
+    font-family: Coco-Sharp-Extrabold-trial;
+    src: url(src/Coco-Sharp-Extrabold-trial.ttf);
+  }
+
+  @font-face {
+    font-family: Coco-Sharp-Bold-trial;
+    src: url(src/Coco-Sharp-Extrabold-trial.ttf);
+  }
+
+  body {
+    margin: 0;
+    font-family: Coco-Sharp-Bold-trial;
+    background-color: #efefef;
+  }
+  
+  .divMenu p {
+    font-family: 'Times New Roman', Times, serif;
+  } 
+
+  header {
+    background-color: #629677;
+    padding: 0.8vw;
+  }
+ 
+  img {
+    border-radius: 10px;
+  }
+
+  header img {
+    width: 4.5vw;
+    margin: 0.5vw;
+  }
+
+  section article img {
+    width: 100%;
+    border-radius: 0;
+  }
+
+  header .linkCentrado {
+    margin: 0 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 1.5vw;
+  }
+
+  .divContenedor {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+
+  .divSubContenedorIzquierda {
+    display: flex;
+    align-items: center; 
+  }
+
+  .divSubContenedorIzquierda a {
+    margin-right: 10px;
+  }
+  
+  .divSubContenedorDerecha {
+    display: flex;
+    align-items: center; 
+  }
+  
+  .divSubContenedorDerecha a {
+    margin: 0 1vw;
+    font-family: Coco-Sharp-Bold-trial;
+    font-size: 1vw;
+  }
+
+  .divSubContenedorDerecha img {
+    border-radius: 100%;
+  }
+
+  /****************** TARJETAS ******************/
+
+  .contenedorTarjetas {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 2% 0;
+  }
+  
+  .tarjeta {
+    width: 10%;
+    font-size: 2.5vw;
+  }
+
+ /****************** STOCK ******************/
+
+  .contenedorStock {
+    width: 60%;
+    margin: 5vh auto;
+  }
+
+  .subContenedorTitulo {
+    width: 20%;
+    border: 2px solid #222;
+    border-bottom: 0px;
+    border-radius: 8px 8px 0px 0px;
+    font-size: 1.5vw;
+    text-align: center;
+  }
+
+  .subContenedorCombo {
+    border: 2px solid #222;
+    display: flex;
+    border-radius: 8px;
+    justify-content: space-evenly;
+    margin: 1vw;
+  }
+
+  .divMenu {
+    width: 20%;
+    margin: 2vw;
+    border: 2px solid #222;
+    border-radius: 8px;
+  }
+
+  /****************** PEDIDOS ******************/
+
+  .contenedorPedidos {
+    width: 60%;
+    margin: 3vw auto;
+  }
+
+  .subContenedorPedidos {
+    display: block;
+    justify-content: space-evenly;
+    padding: 1vw;
+  }
+
+  .divPedido {
+    display: flex;
+    border: 2px solid #222;
+    border-radius: 0px 8px 8px 8px;
+  }
+  
+  .divDatosPedido {
+    align-self: center;
+    width: 20%;
+    margin: 2vw;
+    border: 2px solid #222;
+    border-radius: 8px;
+  }
+  
+  .divMenuPedido {
+    width: 20%;
+    margin: 2vw;
+    border: 2px solid #222;
+    border-radius: 8px;
+  }
+
+  /****************** PEDIDOS ******************/
+
+  h2 {
+    font-size: 1.3vw;
+    margin: 0.5rem 1rem;
+  }
+
+  div p {
+    text-align: center;
+    font-size: 0.8vw;
+  }
+
+  /******************************************/
+
+  textarea {
+    resize: none;
+  }
+
+  a {
+    text-decoration: none;
+    color: #222;
+  }
+
+/******************************************/
+
+  footer {
+    padding: 3rem;
+    background-color: #222;
+    color: #aaa;
+    margin-top: 1rem;
+    font-size: 1vw;
+  }
+
+  footer p {
+    margin: 0;
+    text-align: left;
+  }
+
+  footer section {
+    float: right;
+  }
+
+  footer a {
+    transition: 0.3s;
+    color: #aaa;
+    text-decoration: none;
+  }
+
+  footer a:hover {
+    color: cornflowerblue;
+  }
+/**//**//**//**//**//**//**//**//**//**/
