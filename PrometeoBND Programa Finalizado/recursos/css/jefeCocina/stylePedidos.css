@@ -1,0 +1,137 @@
+
+
+
+ /****************** STOCK ******************/
+
+
+  .subContenedorTitulo {
+    width: 20%;
+    border: 2px solid #222;
+    border-bottom: 0px;
+    border-radius: 8px 8px 0px 0px;
+    font-size: 1.5vw;
+    text-align: center;
+  }
+
+  .divMenu {
+    width: 20%;
+    margin: 2vw;
+    border: 2px solid #222;
+    border-radius: 8px;
+  }
+
+/****************** PEDIDOS ******************/
+
+  .contenedorPedidos {
+    display: flex;
+    width: 80%;
+    margin: 3vw auto;
+
+  }
+
+  .subContenedorPedidos {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    padding: 1vw;
+  }
+
+  .divPedido {
+    display: flex;
+  }
+  
+  .formContainer {
+    display: flex;
+    width: 80%;
+    padding: 1.5em 0;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    border: 2px solid #222;
+    border-radius: 0px 8px 8px 8px;
+
+  }
+
+  .divContainerDatos {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    text-align: center;
+    justify-content:  space-evenly;
+  }
+
+  .divContainerDatos h2 {
+    text-decoration: underline;
+  }
+
+  .divDatosPedido {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 100%;
+    /* margin: 1vw; */
+    border: 1px solid #222;
+    border-radius: 8px;
+  }
+  
+  .divMenuPedido {
+    width: 20%;
+    margin: 2vw;
+    border: 2px solid #222;
+    border-radius: 8px;
+  }
+
+  h1 {
+    text-align: center;
+    margin: 6rem 0;
+  }
+
+  .subComboMenus {
+    display: flex;
+    flex-direction: column;
+    width: 38%;
+    padding: 1em 1.5em;
+    border-radius: 10px;
+    background-color: #efefef;
+  } 
+
+  .subComboMenus img {
+    width: 100%;
+    border-radius: 8px;
+  }
+
+  .opcMenu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  /****************** PEDIDOS ******************/
+
+  h2 {
+    font-size: 1.3vw;
+    margin: 0.5rem 1rem;
+  }
+
+   div p {
+    text-align: center;
+    font-size: 0.8vw;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  /****************************************
+
+  textarea {
+    resize: none;
+  }
+
+  a {
+    text-decoration: none;
+    color: #222;
+  }
+  
+  **************************************/
+  section article img {
+    width: 100%;
+    border-radius: 0;
+  }

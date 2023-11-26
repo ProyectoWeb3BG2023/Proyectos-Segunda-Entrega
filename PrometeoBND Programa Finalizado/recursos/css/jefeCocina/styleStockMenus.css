@@ -1,0 +1,46 @@
+h1 {
+  text-align: center;
+  margin: 6rem 0;
+}
+
+.contenedorTrio {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+.comboMenus {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  justify-content: space-around;
+  margin: 5em auto;
+}
+
+.subComboMenus {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  padding: 2em 1.5em;
+  border-radius: 10px;
+  background-color: #efefef;
+} 
+
+.subComboMenus img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.opcMenu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.opcMenu p, .opcMenu a {
+  font-size: 2rem;
+
+}
+
+/******************************************/

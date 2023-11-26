@@ -1,0 +1,43 @@
+@font-face {
+    font-family: Coco-Sharp-Extrabold-trial;
+    src: url(../fonts/Coco-Sharp-Extrabold-trial.ttf);
+  }
+
+  @font-face {
+    font-family: Coco-Sharp-Bold-trial;
+    src: url(../fonts/Coco-Sharp-Extrabold-trial.ttf);
+  }
+
+  @font-face {
+    font-family: montExtraLight;
+    src: url(../fonts/Montserrat-ExtraLight.ttf);
+  }
+
+  @font-face {
+    font-family: montLight;
+    src: url(../fonts/Montserrat-Light.ttf);
+  }
+
+  @font-face {
+    font-family: montRegular;
+    src: url(../fonts/Montserrat-Regular.ttf);
+  }
+
+  @font-face {
+    font-family: montSemiBold;
+    src: url(../fonts/Montserrat-SemiBold.ttf);
+  }
+
+  @font-face {
+    font-family: prata;
+    src: url(../fonts/Prata-Regular.ttf);
+  }
+  /*
+  font-family: 'Bebas Neue', sans-serif;
+  font-family: 'Libre Baskerville', serif;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  */
+  

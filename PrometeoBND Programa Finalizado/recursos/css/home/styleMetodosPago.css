@@ -1,0 +1,36 @@
+
+h1 {
+    text-align: center;
+}
+
+.contenedorTarjetas {
+    padding-top: 4rem;
+    display: flex;
+    width: 100%;
+    height: 40vh;
+    justify-content: space-evenly;
+    /* align-items: stretch; */
+    align-self: center;
+
+}
+
+.tarjeta {
+    width: 30%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    border-radius: 10px;
+    border: 2px solid #222;
+    margin: 1rem;
+    align-content: space-between;
+    justify-content: space-around;
+    padding: 1rem;
+    align-items: center;
+  }
+
+  .tarjeta div {
+    display: flex;
+    flex-direction: column;
+  }
+  

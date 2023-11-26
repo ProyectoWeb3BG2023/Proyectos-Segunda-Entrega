@@ -1,0 +1,18 @@
+footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    padding: 2.3vw;
+    background-color: #222;
+    color: #aaa;
+    margin-top: 1vw;
+    font-size: 1vw;
+  }
+
+  footer p {
+    margin: 0;
+  }
+
+  input {
+    font-family: Arial, Helvetica, sans-serif;
+  }

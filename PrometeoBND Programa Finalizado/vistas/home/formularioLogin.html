@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Nathan Guerra, Bruno Bordagorry, Diego Weble">
+    <meta name="generator" content="Visual Studio Code">
+    <meta http-equiv="X-UA-Compatible" content="IE=chrome">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="formulario, sign up, registro">
+    <link rel="stylesheet" href="../../recursos/css/fonts.css">
+    <link rel="stylesheet" href="../../recursos/css/header.css">
+    <link rel="stylesheet" href="../../recursos/css/home/styleFormularioLogin.css">
+    <link rel="icon" href="../../recursos/img/logo.png">
+    <title>Log in</title>
+</head>
+
+<body>
+    <section class="sectionCabeceraLogin">
+        <article class="containerImg">
+            <img src="../../recursos/img/logoSinFondo.png" alt="">
+        </article>
+        <article class="containerBienvenida">
+            <h2>¡Bienvenido otra vez!</h2>
+        </article>
+    </section>
+
+    <section class="contenedorFormularioRegistro">
+        <article class="titulo">
+            Ingreso
+        </article>
+        <article class="subContenedorFormulario">
+                <form action="../../datos/logueo.php" method="post" enctype="multipart/form-data" class="formulario">
+                    <p>
+                        <div class="inputFlota">
+                            <input type="text" class="inputDato" id="n1" name="identificador" required>
+                            <label for="n1">&nbsp;ID Usuario&nbsp;</label>
+                        </div>
+                    </p>
+                    <p>
+                        <div class="inputFlota">
+                            <input type="password" class="inputDato" id="contrasena" name="contrasena" required>
+                            <label for="contrasena">Contraseña</label>
+                        </div>
+                    </p>
+                    <input class="botonEnviar" type="submit" value="Entrar" name="registrar">
+                </form>
+        </article>
+    </section>
+
+    <section class="botonVolver">
+        <button class="learn-more">
+            <span class="circle" aria-hidden="true">
+            <span class="icon arrow"></span>
+            </span>
+            <span class="button-text"><a href="homepage.html" class="button-text">Volver atrás</a></span>
+        </button>
+    </section>
+</body>
+
+</html>

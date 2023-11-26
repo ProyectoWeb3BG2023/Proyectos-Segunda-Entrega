@@ -1,0 +1,120 @@
+  
+  
+.tarjeta {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 2% 0;
+}
+
+.tarjetas {
+  width: 10%;
+  font-size: 2.5rem;
+}
+
+.boton {
+  width: 8vw;
+  height: 3rem;
+  font-size: 1vw;
+  text-align: center;
+  border-radius: 6px;
+  border: 1px solid #e2e2e2;
+  color: #a0a0a0;
+  font-family: montLight;
+  cursor: pointer;
+  background-color: white;
+  box-shadow: .2rem .2rem .2rem rgba(0, 0, 0, 0.1);
+  transition: box-shadow .2s ease-in-out;
+}
+
+.boton:hover{
+  box-shadow: .4rem .4rem .4rem rgba(0, 0, 0, 0.1);
+}
+
+.contenedorMenus {
+  width: 33%;
+  margin: 5rem auto;
+}
+
+.contenedorMenus10, .contenedorMenus20 {
+  display: none;
+} 
+
+.contenedorMenus20 {
+  width: 50%;
+}
+
+.subContenedorTitulo {
+  border: 2px solid #222;
+  width: 30%;
+  border-bottom: 0px;
+  font-size: 1vw;
+  border-radius: 8px 8px 0px 0px;
+  text-align: center;
+}
+
+
+
+.subContenedorSuperiorDatosMenu {
+  display: flex;
+  border: 2px solid #222;
+  border-radius: 0px 8px 0px 0px;
+  border-bottom: 0;
+}
+
+.subContenedorInternoDatosMenu {
+  display: flex;
+  border: 2px solid #222;
+  border-top: 0;
+  border-bottom: 0;
+  margin: 0 auto;
+  justify-content: space-around;
+}
+
+.subContenedorInferiorDatosMenu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border: 2px solid #222;
+  border-top: 0;
+  border-radius: 0px 0px 8px 8px;
+  margin: 0 auto;
+}
+
+/* .subContenedorInferiorDatosMenu:first-child {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 0.5rem auto;
+} */
+
+.divDatosMenuNombre {
+  margin: 2rem auto;
+  text-align: center;
+}
+
+.divDatosMenu {
+  margin: 2rem;
+}
+
+.botonEnviarMenu {
+  display: block;
+  margin: 0.5rem auto;
+  width: 8vw;
+  height: 3rem;
+  font-size: 1vw;
+  text-align: center;
+  border-radius: 6px;
+  border: 2px solid #222;
+  font-family: Coco-Sharp-Extrabold-trial;
+  cursor: pointer;
+}
+
+::-webkit-file-upload-button {
+  display: block;
+}
+
+.datosMenu {
+  width: 9rem;
+}

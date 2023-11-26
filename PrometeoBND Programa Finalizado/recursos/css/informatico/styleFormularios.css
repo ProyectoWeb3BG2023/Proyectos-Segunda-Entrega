@@ -1,0 +1,103 @@
+/****************************************************************/
+
+.contenedorFormularioRegistro {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  border-radius: 8px;
+  margin: 7vw auto;
+}
+
+.botonesWebEmpresa {
+  width: 50%;
+  display: flex;
+  font-size: 1vw;
+}
+
+.botonWeb {
+  display: flex;
+  border: 2px solid #222;
+  border-bottom: 0;
+  border-radius: 8px 8px 0 0;
+  padding: 0.2vw 0.5vw;
+}
+
+.botonEmpresa {
+  display: flex;
+  border: 2px solid #222;
+  border-bottom: 0;
+  border-radius: 8px 8px 0 0;
+  margin-left: 0.1vw;
+  padding: 0.2vw 0.5vw;
+}
+
+.subContenedorFormularioWeb {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border: 2px solid #222;
+  margin: 0 auto;
+  border-radius: 0 8px 8px 8px;
+}
+
+.containerTipoUsuario {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+}
+
+select {
+  width: 15%;
+  text-align: center;
+}
+
+
+.formularioWeb, .formularioEmpresa {
+  padding: 1vw;
+}
+
+p  {
+  text-align: center;
+}
+
+input[type="submit" i]{
+  display: block;
+  margin: 0 auto; 
+}
+
+input {
+  width: 10vw;
+  height: 3vh;
+  text-align: center;
+  border-radius: 6px;
+  border: 2px solid #222;
+  font-size: 1vw;
+  margin: 1vh 0.5vw; 
+
+}
+
+::placeholder {
+  font-family: montSemiBold;
+}
+
+.domicilioUsuario input {
+  width: 6.4vw;
+}
+
+/*
+ input {
+  width: 15vw;
+  margin: 19% 11%;
+  text-align: center;
+}
+
+
+ input {
+  margin: 7% 11%;
+}
+
+ input {
+  width: 10vw;
+  margin: 7% 10%;
+}*/
